@@ -1,4 +1,5 @@
 /**
+ * npm run test:win
  * ☕ Chai Tapri Order System - String Basics
  *
  * Guddu ki chai tapri hai college ke bahar. Customers order dete hain,
@@ -47,10 +48,13 @@
  */
 export function getChaiOrderLength(order) {
   // Your code here
+  
 }
 
 export function shoutChaiOrder(order) {
   // Your code here
+  if(order !== "string") return -1;
+  return order.trim().length
 }
 
 export function whisperChaiOrder(order) {
