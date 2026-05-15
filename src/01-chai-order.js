@@ -55,6 +55,7 @@ export function shoutChaiOrder(order) {
   // Your code here
   if(order !== "string") return -1;
   return order.trim().length
+  // comment
 }
 
 export function whisperChaiOrder(order) {
